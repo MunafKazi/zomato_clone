@@ -94,7 +94,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .container{
-    width: 750px;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ font-family: 'Poppins', sans-serif;
    align-items: center;
    justify-content: center;
    margin: 50px 0px 50px 0px;
-   gap: 20px;
+   gap: 25px;
 }
 
 .offer_menu{
@@ -129,3 +129,4 @@ font-family: 'Poppins', sans-serif;
 .offer_menu h3, p{
     padding: 5px 10px;
 }
+
