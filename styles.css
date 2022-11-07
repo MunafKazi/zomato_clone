@@ -130,3 +130,83 @@ font-family: 'Poppins', sans-serif;
     padding: 5px 10px;
 }
 
+.section_collection{
+    display: flex;
+    gap: 10px;
+
+}
+
+.section_collection div{
+    width: 265px;
+    height: 320px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.collection_text h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.collection__text_para{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.p1{
+    font-size: 17px;
+}
+
+.mumbai{
+    color: red;
+    opacity: 0.5;
+}
+
+.collection__item_1{
+    background-image: url(./images/collection1.jpg);
+    color: #fff;
+    position: relative;
+}
+
+.collection__item_2{
+    background-image: url(./images/collection2.jpg);
+    color: #fff;
+}
+
+.collection__item_3{
+    background-image: url(./images/collection3.jpg);
+    color: #fff;
+}
+
+.collection__item_4{
+    background-image: url(./images/collection4.jpg);
+    color: #fff;
+}
+
+.collection__item_1 div{
+   display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.collection__item_2 div{
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+ }
+
+ .collection__item_3 div{
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+ }
+
+ .collection__item_4 div{
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+ }
