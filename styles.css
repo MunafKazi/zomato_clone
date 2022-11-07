@@ -210,3 +210,45 @@ font-family: 'Poppins', sans-serif;
      flex-direction: column;
      justify-content: flex-end;
  }
+
+ .section_localities{
+    margin-top: 100px;
+ }
+
+ .localities_text{
+    font-size: 35px;
+    font-weight: 400;
+ }
+
+ .localities_text span{
+    font-weight: bold;
+ }
+
+ .localities{
+    border: 2px solid rgb(254, 202, 202);
+    width: 350px;
+    padding: 10px 50px 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+ }
+
+ .localities_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 10px;
+ }
+
+ .localities h2{
+    font-weight: 400;
+ }
+
+ .see_more{
+   text-align: center;
+   padding-top: 25px;
+ }
+
+
+
+
