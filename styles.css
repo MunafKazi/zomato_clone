@@ -364,6 +364,7 @@
 
   .container_footer{
     padding-top: 40px;
+
   }
 
 .footer_section1{
@@ -454,7 +455,6 @@ align-items: center;
 
 .footer__section_logos{
     width: 70%;
-    cursor: pointer;
 }
 
 .disclamer{
@@ -485,13 +485,13 @@ align-items: center;
     }
 
     .input_location input{
-        width: 35vh;
+        width: 55vw;
         margin-bottom: 10px;
         align-items: center;
     }
 
     .input_search input{
-        width: 35vh;
+        width: 55vw;
         height:2rem;
         border-radius: 10px;
     }
@@ -502,5 +502,10 @@ align-items: center;
 
     .mobile_pic img{
         margin: 20px 0 0 0  ;
+    }
+
+    .navigation_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
